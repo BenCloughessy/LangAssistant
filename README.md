@@ -22,3 +22,6 @@ Ebook - Click on a word, character, or phrase to see an explanation. Little prep
 Hallucination - This is minimized by setting temperature to 0 when calling the api. However, in a production environment we would need to test and find ways to minimize hallucination
 
 Poor Translations - The quality of explanations and translations is higher than ChatGPT because of access to context. However, it is by no means a substitute for a trained translator in regards to quality and accuracy.
+
+# Note
+vectara.py is the file using vectara. plainGPT.py is the file making basic calls to OpenAI with no access to the text. They are both here for comparison.
